@@ -9,6 +9,10 @@
 
 // Your code :
 
+var getLast=[];
+   return getLast[-1];
+
+
 //* Begin of tests
 const assert = require('assert')
 

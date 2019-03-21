@@ -8,6 +8,9 @@
  */
 
 // Your code :
+var getLength =[];
+   return getLength.Length;
+
 
 //* Begin of tests
 const assert = require('assert')
@@ -19,3 +22,4 @@ assert.strictEqual(getLength([ getLength ]), 1)
 assert.strictEqual(getLength('salut'), 5)
 assert.strictEqual(getLength([]), 0)
 // End of tests */
+

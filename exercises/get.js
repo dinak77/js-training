@@ -8,12 +8,26 @@
  */
 
 // Provided code :
-const sourceObject = {
-  num: 42,
-  bool: true,
-  str: 'some text',
-  log: console.log,
-}
+
+const str = 'some text'
+const num = 42
+const bool = true
+const log = console.log
+   let noexist
+
+const obj = ({
+  'str': str,
+  'num': num,
+  'bool': bool,
+  'noexist': noexist,
+  'log': log,
+});
+
+const get = (a) => {
+
+  return obj[a]
+
+};
 
 // Your code :
 
